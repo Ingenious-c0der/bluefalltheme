@@ -1,7 +1,7 @@
 {
-	"name": "BlueFallTheme",
+	"name": "BlueFallThemeDark",
 	"colors": {
-		"editor.background": "#8fd3d8",
+		"editor.background": "#233331",
 		"editor.foreground": "#333333",
         "list.activeSelectionIconForeground": "#fa9688",
 		"window.activeBorder": "#e4c097",

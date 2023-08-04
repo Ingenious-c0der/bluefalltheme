@@ -1,0 +1,86 @@
+{
+    "name": "Beluga",
+    "scopeName": "source.beluga",
+    "fileTypes": ["beluga"],
+  
+    "patterns": [
+      {
+        "include": "#comments"
+      },
+      {
+        "include": "#entities"
+      },
+      {
+        "include": "#relays"
+      },
+      {
+        "match": "\\b(machine)\\b",
+        "name": "keyword"
+      },
+      {
+        "match": "\\b(consumes|tape|def|ignoreUnknowns|relay)\\b",
+        "name": "variable.language"
+      },
+      {
+        "match": "\\b(onAccept|onReject)\\b",
+        "name": "variable.parameter"
+      },
+      {
+        "match": "\\b(null|true|false)\\b",
+        "name": "constant.language"
+      },
+      {
+        "match": "\\b({|}|\\(|\\)|\\[|\\])\\b",
+        "name": "punctuation"
+      },
+      {
+        "match": "\\b([A-Za-z0-9]+)\\b",
+        "name": "entity.name"
+      }
+    ],
+  
+    "repository": {
+      "comments": {
+        "patterns": [
+          {
+            "begin": "/\\*",
+            "end": "\\*/",
+            "name": "comment.block"
+          },
+          {
+            "match": "//.*$",
+            "name": "comment.line.double-slash"
+          }
+        ]
+      },
+      "entities": {
+        "patterns": [
+          {
+            "begin": "\\b(def)\\b\\s*:\\s*\\(",
+            "end": "\\)",
+            "name": "entity.name.function"
+          },
+          {
+            "begin": "\\b(\\{|\\()\\s*",
+            "end": "\\s*(\\}|\\))",
+            "patterns": [
+              {
+                "include": "#entities"
+              }
+            ]
+          }
+        ]
+      },
+      "relays": {
+        "begin": "\\b(relay)\\b\\s*:\\s*\\{",
+        "end": "\\}",
+        "patterns": [
+          {
+            "begin": "\\b(onAccept|onReject)\\b\\s*:\\s*\\(",
+            "end": "\\)",
+            "name": "entity.name.function"
+          }
+        ]
+      }
+    }
+}
