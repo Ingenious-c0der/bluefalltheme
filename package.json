@@ -3,9 +3,32 @@
   "displayName": "BlueFallTheme",
   "description": "Go background like theme with extended support for beluga language",
   "version": "0.0.1",
+  "publisher": "Ingenious",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ingenious-c0der/bluefalltheme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "blue",
+    "beluga",
+    "beluga language",
+    "beluga syntax",
+    "beluga theme",
+    "beluga syntax theme",
+    "beluga color theme",
+    "beluga color",
+    "beluga c, beluga c++",
+    "go background",
+    "go background theme",
+    "go background color theme",
+    "go background color"
+  ],
   "engines": {
     "vscode": "^1.80.0"
   },
+  
   "categories": [
     "Themes", "Programming Languages"
   ],
