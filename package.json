@@ -17,9 +17,9 @@
         "path": "./themes/BlueFallTheme-color-theme.json"
       },
       {
-        "label": "BlueFallTheme",
+        "label": "BlueFallThemeDarker",
         "uiTheme": "vs-dark",
-        "path": "./themes/BlueFallTheme-color-theme-dark.json"
+        "path": "./themes/BlueFallThemeDarker-color-theme.json"
       }
       
     ],
