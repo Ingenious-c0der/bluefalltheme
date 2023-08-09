@@ -2,13 +2,13 @@
   "name": "bluefalltheme",
   "displayName": "BlueFallTheme",
   "description": "Go background like theme with extended support for beluga language",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "Ingenious",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ingenious-c0der/bluefalltheme"
   },
-  "icon": "images/bluefalltheme.png", 
+  "icon": "images/bluefalltheme.png",
   "keywords": [
     "theme",
     "dark",
@@ -29,9 +29,9 @@
   "engines": {
     "vscode": "^1.80.0"
   },
-  
   "categories": [
-    "Themes", "Programming Languages"
+    "Themes",
+    "Programming Languages"
   ],
   "contributes": {
     "themes": [
@@ -45,22 +45,26 @@
         "uiTheme": "vs-dark",
         "path": "./themes/BlueFallThemeDarker-color-theme.json"
       }
-      
     ],
     "languages": [
-        {
-            "id": "beluga",
-            "aliases": ["Beluga","beluga"],
-            "extensions": [".beluga"],
-            "configuration": "./language-configuration.json"
-        }
+      {
+        "id": "beluga",
+        "aliases": [
+          "Beluga",
+          "beluga"
+        ],
+        "extensions": [
+          ".beluga"
+        ],
+        "configuration": "./language-configuration.json"
+      }
     ],
     "grammars": [
-        {
-            "language": "beluga",
-            "scopeName": "source.beluga",
-            "path": "./syntaxes/beluga.tmLanguage.json"
-        }
+      {
+        "language": "beluga",
+        "scopeName": "source.beluga",
+        "path": "./syntaxes/beluga.tmLanguage.json"
+      }
     ]
   }
 }
