@@ -1,17 +1,53 @@
 {
 	"name": "BlueFallTheme",
 	"colors": {
-		"editor.background": "#8fd3d8",
+		"editor.background": "#bbdcdd",
 		"editor.foreground": "#333333",
         "list.activeSelectionIconForeground": "#fa9688",
 		"window.activeBorder": "#e4c097",
 		"sideBar.background": "#acd8dac4",
-		"sideBar.foreground": "#363636",
-		"sideBar.border": "#885f31",
-		"sideBarSectionHeader.background" : "#acd8dac4",
+		"sideBar.foreground": "#202020",
+		"sideBar.border": "#c9af91",
+		"sideBarTitle.foreground": "#000000",
+
+		"sideBarSectionHeader.background" : "#dad5ac",
 		"sideBarSectionHeader.foreground" : "#000000",
-		"editorGroupHeader.tabsBackground": "#acd8dac4",
-		"activityBar.background": "#01606d"
+		"editorGroupHeader.tabsBackground": "#dad5ac",
+
+		"tab.activeForeground": "#001e31",
+		"tab.activeBackground": "#dabb60",
+		"tab.inactiveForeground": "#424242",
+		"tab.inactiveBackground": "#dad5ac",
+		"tab.border": "#b9ab9b",
+		"editorGroupHeader.tabsBorder": "#b9ab9b",
+		"editorGroup.border": "#b9ab9b",
+		//now set the color for window title bar
+		"titleBar.activeBackground": "#c5b074",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.inactiveBackground": "#c5b074",
+		"titleBar.border": "#c9af91",
+		"activityBar.background": "#01606d",
+		//scroll bar colors 
+		"scrollbarSlider.activeBackground": "#db8008",
+		"scrollbarSlider.background": "#dfbb8c",
+		"scrollbarSlider.hoverBackground": "#dfa04d",
+		
+
+		//status bar color 
+		"statusBar.background": "#01606d",
+
+		//button color
+		"button.background": "#01606d",
+		//notification color
+		"notificationCenter.border": "#c9af91",
+		"notificationCenterHeader.foreground": "#000000",
+		"notificationCenterHeader.background": "#dad5ac",
+		"notificationsInfoIcon.foreground":"#11B7D4",
+		"activityBarBadge.background": "#ffc786",
+		"activityBarBadge.foreground": "#000000",
+		
+		"badge.background": "#d6b262",
+		"badge.foreground": "#000000",
 	},
 	"tokenColors": [
 		{

@@ -7,14 +7,62 @@
         "list.activeSelectionIconForeground": "#fa9688",
 		"window.activeBorder": "#e4c097",
 		"sideBar.background": "#024b26",
-		"sideBar.foreground": "#ebebeb",
-		"sideBar.border": "#885f31",
+		"sideBar.foreground": "#e5e6aa",
+		"sideBar.border": "#628831",
+		"sideBarTitle.foreground": "#e5e6aa",
+		"list.activeSelectionBackground": "#348f0098",
+		"list.hoverBackground": "#348f00",
+		"list.focusBackground": "#348f00",
+		"list.inactiveSelectionBackground": "#348f00",
+		"list.focusAndSelectionOutline": "#dbd173",
+		
 		"sideBarSectionHeader.background" : "#41c40ec4",
 		"sideBarSectionHeader.foreground" : "#000000",
 		"editorGroupHeader.tabsBackground": "#024121",
+
 		"editorGroupHeader.border": "#91ff00",
 		"editorGroupHeader.tabsBorder": "#17be08",
 		"activityBar.background": "#013f20",
+
+		"tab.activeForeground": "#f7f8d1",
+		"tab.activeBackground": "#76973d",
+		"tab.inactiveForeground": "#e5e6aa",
+		"tab.inactiveBackground": "#577229",
+		"tab.border": "#b9ab9b",
+
+		"editorGroup.border": "#b9ab9b",
+		//now set the color for window title bar
+		"titleBar.activeBackground": "#083302",
+		"titleBar.activeForeground": "#b6e0a9",
+		"titleBar.inactiveBackground": "#083302",
+		"titleBar.border": "#91ff00",
+
+		//scroll bar colors 
+		"scrollbarSlider.activeBackground": "#32db08",
+		"scrollbarSlider.background": "#addf8c",
+		"scrollbarSlider.hoverBackground": "#5edf4d",
+		
+
+		//status bar color 
+		"statusBar.background": "#016d13",
+		"statusBar.foreground": "#e5e6aa",
+
+		//button color
+		"button.background": "#016d06",
+		//notification color
+		"activityBarBadge.background": "#ffc786",
+		"activityBarBadge.foreground": "#000000",
+		
+		"badge.background": "#d6b262",
+		"badge.foreground": "#000000",
+
+		//change input color 
+		"input.background": "#046333",
+		"input.foreground": "#e5e6aa",
+		"input.border": "#b9ab9b",
+		"input.placeholderForeground": "#e5e6aa",
+
+
 	
 	},
 	"tokenColors": [
