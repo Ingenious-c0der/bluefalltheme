@@ -44,6 +44,11 @@
         "label": "BlueFallThemeDarker",
         "uiTheme": "vs-dark",
         "path": "./themes/BlueFallThemeDarker-color-theme.json"
+      },
+      {
+        "label": "BlueFallThemeMettle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BlueFallThemeMettle-color-theme.json"
       }
     ],
     "languages": [
