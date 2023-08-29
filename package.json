@@ -2,7 +2,7 @@
   "name": "bluefalltheme",
   "displayName": "BlueFallTheme",
   "description": "Go background like theme with extended support for beluga language",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "Ingenious",
   "repository": {
     "type": "git",
@@ -49,6 +49,11 @@
         "label": "BlueFallThemeMettle",
         "uiTheme": "vs-dark",
         "path": "./themes/BlueFallThemeMettle-color-theme.json"
+      },
+      {
+        "label": "BlueFallThemeOldSchool",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BlueFallThemeOldSchool-color-theme.json"
       }
     ],
     "languages": [
